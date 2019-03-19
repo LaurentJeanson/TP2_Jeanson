@@ -10,7 +10,7 @@
  */
 ?>
 <a href="<?php the_permalink(); ?>">
-<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:30% auto">
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:20% auto">
 	<figure class="wp-block-media-text__media">	
 		<?php
 			$image = get_field('mon_image');

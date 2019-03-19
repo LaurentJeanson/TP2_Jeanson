@@ -811,9 +811,14 @@ body.page .main-navigation {
   background-color: azure;
 }
 
-.entry-title {
+.post-template-default .entry-title {
   border-bottom: 2px solid azure;
   border-left: 2px solid #add4d4;
+}
+
+.entry-header .entry-title {
+  border-bottom: 0px solid azure;
+  border-left: 0px solid #add4d4;
 }
 
 .entry-content {

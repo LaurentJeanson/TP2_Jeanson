@@ -1,9 +1,13 @@
 .post-template-default .entry-content .wp-block-media-text {
     background-color: azure;
 }
-.entry-title{
+.post-template-default .entry-title{
     border-bottom: 2px solid azure;
     border-left: 2px solid rgb(173, 212, 212);
+}
+.entry-header .entry-title{
+    border-bottom: 0px solid azure;
+    border-left: 0px solid rgb(173, 212, 212);
 }
 .entry-content{
     border: 1px solid rgb(173, 212, 212);
