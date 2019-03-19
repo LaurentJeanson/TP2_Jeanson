@@ -703,32 +703,32 @@ body.page .main-navigation {
   font-size: 1.5em;
 }
 
-.liste-cours .session-1 {
-  background-color: #1c7742;
+.liste-cours .domaine-1 {
+  background-color: #DB2B30;
   color: #fff;
 }
 
-.liste-cours .session-2 {
-  background-color: #d3a145;
+.liste-cours .domaine-2 {
+  background-color: #8F1D2C;
   color: #aaa;
 }
 
-.liste-cours .session-3 {
-  background-color: #2f2f97;
+.liste-cours .domaine-3 {
+  background-color: #5A142A;
   color: #fff;
 }
 
-.liste-cours .session-4 {
-  background-color: #948b36;
+.liste-cours .domaine-4 {
+  background-color: #400D2A;
   color: #fff;
 }
 
-.liste-cours .session-5 {
-  background-color: #97173d;
+.liste-cours .domaine-5 {
+  background-color: #140A25;
   color: #fff;
 }
 
-.liste-cours .session-6 {
+.liste-cours .domaine-6 {
   background-color: #251b04;
   color: #fff;
 }
@@ -760,6 +760,30 @@ body.page .main-navigation {
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+  }
+  .liste-cours .domaine-1 {
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+  .liste-cours .domaine-2 {
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+  .liste-cours .domaine-3 {
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+  .liste-cours .domaine-4 {
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+  .liste-cours .domaine-5 {
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+  .liste-cours .domaine-6 {
+    border: 1px solid black;
+    border-radius: 30px;
   }
 }
 
