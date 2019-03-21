@@ -9,11 +9,15 @@
 	body.page & {
 		display: block;
 	}
-
+.menu-menu-container{
+	background-color: black;
+}
 	> div {
 		display: inline;
 	}
-
+	.svg-icon{
+		color: rgb(255, 255, 255);
+	}
 	/* Un-style buttons */
 	button {
 		display: inline-block;

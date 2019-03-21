@@ -3,11 +3,13 @@
 
 @keyframes anim1 {
     from {
-        transform: translateY(-100vh)  rotateX(0deg);
+        opacity: 0;
+        transform: translateY(-20vh)  rotateX(0deg);
          animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
     }
  
     100% {
+        opacity: 1;
         transform: translateY(0) rotateX(0deg); 
         // animation-timing-function: cubic-bezier(.89, .17, 1, .31);
     }
@@ -16,22 +18,22 @@
 @keyframes anim2 {
 
    0% {
-        transform: rotateX(50deg); 
+        transform: rotateX(5deg); 
         animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
     }
     60% {
-        transform:  rotateX(-40deg);
+        transform:  rotateX(-4deg);
     }
 
     70% {
-        transform: rotateX(30deg);
+        transform: rotateX(3deg);
     }
 
     80% {
-        transform: rotateX(-20deg);
+        transform: rotateX(-2deg);
     }
     90% {
-        transform:  rotateX(10deg);
+        transform:  rotateX(1deg);
     }
     95% {
             transform: rotateX(-5deg);
@@ -53,12 +55,14 @@
 
 @keyframes anim3 {
     0% {
+        opacity: 0;
         animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
-        transform: translateX(-100%) rotateX(50deg);
+        transform: translateY(100%) rotateX(0deg);
     }
 
     100% {
-        transform: translateX(0) rotateX(50deg);
+        opacity: 1;
+        transform: translateY(0) rotateX(0deg);
     }
 }
 
