@@ -19,6 +19,30 @@
     .domaine-6 { background-color: #251b04; color : #fff;}
     h3,h4 { padding:5px;}
 
+    .domaine-1:hover{
+        transition: 1s;
+        transform: scale(1.1);
+    }
+    .domaine-2:hover{
+        transition: 1s;
+        transform: scale(1.1);
+    }
+    .domaine-3:hover{
+        transition: 1s;
+        transform: scale(1.1);
+    }
+    .domaine-4:hover{
+        transition: 1s;
+        transform: scale(1.1);
+    }
+    .domaine-5:hover{
+        transition: 1s;
+        transform: scale(1.1);
+    }
+    .domaine-6:hover{
+        transition: 1s;
+        transform: scale(1.1);
+    }
     @include media(mobile){
         grid-template-columns: repeat(2,1fr);
         grid-gap: 10px;
