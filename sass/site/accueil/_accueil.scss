@@ -1,7 +1,8 @@
 /*Ce fichier sass à été créé par Laurent Jeanson*/
 
 // Variables.
-$column-bg: #c900001c;
+$column-Scale: 1;
+$column-ScaleGros: (1.1);
 
 .entry .entry-content .has-large-font-size {
     font-size: 1em; 
@@ -23,20 +24,17 @@ $column-bg: #c900001c;
 
 @keyframes pulse {
     0% {
-      background: $column-bg;
       border-radius: 10px;
-      transform: scale(1);
+      transform: $column-Scale;
     }
     
     25% {
-      background: ($column-bg, 10%);
       border-radius: 60px;
       transform: scale(1.015);
     }
     
     50% {
-      background: $column-bg;
       border-radius: 0px;
-      transform: scale(1);
+      transform: $column-Scale;
     }
   }

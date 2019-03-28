@@ -856,43 +856,37 @@ body.page .main-navigation {
 
 @-webkit-keyframes pulse {
   0% {
-    background: #c900001c;
     border-radius: 10px;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: 1;
+            transform: 1;
   }
   25% {
-    background: #c900001c, 10%;
     border-radius: 60px;
     -webkit-transform: scale(1.015);
             transform: scale(1.015);
   }
   50% {
-    background: #c900001c;
     border-radius: 0px;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: 1;
+            transform: 1;
   }
 }
 
 @keyframes pulse {
   0% {
-    background: #c900001c;
     border-radius: 10px;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: 1;
+            transform: 1;
   }
   25% {
-    background: #c900001c, 10%;
     border-radius: 60px;
     -webkit-transform: scale(1.015);
             transform: scale(1.015);
   }
   50% {
-    background: #c900001c;
     border-radius: 0px;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: 1;
+            transform: 1;
   }
 }
 
