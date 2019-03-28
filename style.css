@@ -62,6 +62,23 @@ http: //krasimirtsonev.com/blog/article/SASS-content-directive-is-a-wonderful-th
 */
 /* Navigation */
 /** === Main menu === */
+/*Placeholder pour Héritage*/
+.main-navigation .svg-icon:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: black;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.sub-menu {
+  background-color: rgba(255, 0, 0, 0.295) !important;
+}
+
+.sub-menu li {
+  background-color: rgba(0, 0, 0, 0.795) !important;
+}
+
 .main-navigation {
   display: block;
   margin-top: 0.25rem;
@@ -85,16 +102,16 @@ body.page .main-navigation {
   display: block;
 }
 
-.main-navigation .menu-menu-container {
-  background-color: black;
-}
-
 .main-navigation > div {
   display: inline;
 }
 
 .main-navigation .svg-icon {
   color: white;
+}
+
+.main-navigation .svg-icon:active {
+  font-size: 25px;
 }
 
 .main-navigation button {
@@ -514,6 +531,7 @@ body.page .main-navigation {
 .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li > a:hover,
 .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li > a:focus {
   background-color: transparent;
+  color: black !important;
 }
 
 .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu > li > a,
@@ -813,6 +831,62 @@ body.page .main-navigation {
 
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
+}
+
+.wp-block-column {
+  -webkit-animation: 1s ease 0s pulse infinite;
+          animation: 1s ease 0s pulse infinite;
+}
+
+.wp-block-column:nth-child(1) {
+  -webkit-animation-delay: 0.16667s;
+          animation-delay: 0.16667s;
+}
+
+.wp-block-column:nth-child(2) {
+  -webkit-animation-delay: 0.33333s;
+          animation-delay: 0.33333s;
+}
+
+.wp-block-column:nth-child(3) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background: #cfcfdf;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    background: #b0b0cb;
+    -webkit-transform: scale(1.015);
+            transform: scale(1.015);
+  }
+  50% {
+    background: #cfcfdf;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background: #cfcfdf;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    background: #b0b0cb;
+    -webkit-transform: scale(1.015);
+            transform: scale(1.015);
+  }
+  50% {
+    background: #cfcfdf;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .post-template-default .entry-content .wp-block-media-text {

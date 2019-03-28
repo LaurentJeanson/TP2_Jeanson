@@ -1,5 +1,18 @@
 /** === Main menu === */
 
+
+/*Placeholder pour Héritage*/
+%hover{
+	transition: 1s;
+	color: rgb(0, 0, 0);
+	transform: rotate(90deg);
+}
+.sub-menu{
+	background-color: rgba(255, 0, 0, 0.295) !important;
+}
+.sub-menu li{
+	background-color: rgba(0, 0, 0, 0.795) !important;
+}
 .main-navigation {
 
 	display: block;
@@ -9,14 +22,18 @@
 	body.page & {
 		display: block;
 	}
-.menu-menu-container{
-	background-color: black;
-}
 	> div {
 		display: inline;
 	}
 	.svg-icon{
 		color: rgb(255, 255, 255);
+	}
+
+	.svg-icon:hover{
+		@extend %hover;
+	}
+	.svg-icon:active{
+		font-size: 25px;
 	}
 	/* Un-style buttons */
 	button {
@@ -56,7 +73,6 @@
 		display: inline-block;
 		margin: 0;
 		padding: 0;
-
 		> li {
 
 			color: $color__link;
@@ -430,6 +446,7 @@
 		li > a:hover,
 		li > a:focus {
 			background-color: transparent;
+			color: black !important;
 		}
 
 		> li > a,
