@@ -3,12 +3,14 @@
 
 @keyframes anim1 {
     from {
+        text-shadow: -5px 4px 18px #000000;
         opacity: 0;
-        transform: translateY(-20vh)  rotateX(0deg);
+        transform: translateY(-20vh)  rotateX(100deg);
          animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
     }
  
     100% {
+        text-shadow: -2px -1px 1px #000000;
         opacity: 1;
         transform: translateY(0) rotateX(0deg); 
         // animation-timing-function: cubic-bezier(.89, .17, 1, .31);

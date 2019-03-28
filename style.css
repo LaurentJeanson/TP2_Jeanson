@@ -982,13 +982,15 @@ img {
 
 @-webkit-keyframes anim1 {
   from {
+    text-shadow: -5px 4px 18px #000000;
     opacity: 0;
-    -webkit-transform: translateY(-20vh) rotateX(0deg);
-            transform: translateY(-20vh) rotateX(0deg);
+    -webkit-transform: translateY(-20vh) rotateX(100deg);
+            transform: translateY(-20vh) rotateX(100deg);
     -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
             animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
   }
   100% {
+    text-shadow: -2px -1px 1px #000000;
     opacity: 1;
     -webkit-transform: translateY(0) rotateX(0deg);
             transform: translateY(0) rotateX(0deg);
@@ -997,13 +999,15 @@ img {
 
 @keyframes anim1 {
   from {
+    text-shadow: -5px 4px 18px #000000;
     opacity: 0;
-    -webkit-transform: translateY(-20vh) rotateX(0deg);
-            transform: translateY(-20vh) rotateX(0deg);
+    -webkit-transform: translateY(-20vh) rotateX(100deg);
+            transform: translateY(-20vh) rotateX(100deg);
     -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
             animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
   }
   100% {
+    text-shadow: -2px -1px 1px #000000;
     opacity: 1;
     -webkit-transform: translateY(0) rotateX(0deg);
             transform: translateY(0) rotateX(0deg);
