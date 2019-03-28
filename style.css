@@ -69,6 +69,7 @@ http: //krasimirtsonev.com/blog/article/SASS-content-directive-is-a-wonderful-th
   color: black;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  font-size: 70px;
 }
 
 .sub-menu {
@@ -735,22 +736,22 @@ body.page .main-navigation {
 }
 
 .liste-cours .domaine-2 {
-  background-color: #8F1D2C;
+  background-color: #b42c3e;
   color: #aaa;
 }
 
 .liste-cours .domaine-3 {
-  background-color: #5A142A;
+  background-color: #831c3d;
   color: #fff;
 }
 
 .liste-cours .domaine-4 {
-  background-color: #400D2A;
+  background-color: #5e133d;
   color: #fff;
 }
 
 .liste-cours .domaine-5 {
-  background-color: #140A25;
+  background-color: #33195f;
   color: #fff;
 }
 
