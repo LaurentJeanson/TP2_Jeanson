@@ -1,13 +1,12 @@
+/*Ce fichier sass à été créé par Laurent Jeanson*/
+
 // Variables.
-$tile-bg: #cfcfdf1c;
+$column-bg: #c900001c;
 
 .entry .entry-content .has-large-font-size {
     font-size: 1em; 
 }
-.wp-block-columns .wp-block-image:hover{
-    
-}
-.wp-block-column:nth-child(2){
+.wp-block-column{
     animation: 1s ease 0s pulse infinite;
     // Loop from 1-9.
     @for $i from 1 through 3 {
@@ -24,17 +23,20 @@ $tile-bg: #cfcfdf1c;
 
 @keyframes pulse {
     0% {
-      background: $tile-bg;
+      background: $column-bg;
+      border-radius: 10px;
       transform: scale(1);
     }
     
     25% {
-      background: darken($tile-bg, 10%);
+      background: ($column-bg, 10%);
+      border-radius: 60px;
       transform: scale(1.015);
     }
     
     50% {
-      background: $tile-bg;
+      background: $column-bg;
+      border-radius: 0px;
       transform: scale(1);
     }
   }

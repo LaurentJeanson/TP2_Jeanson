@@ -126,10 +126,10 @@ body.page .main-navigation {
   background: transparent;
   color: inherit;
   cursor: pointer;
-  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
+  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -829,6 +829,7 @@ body.page .main-navigation {
   font-size: .4em;
 }
 
+/*Ce fichier sass à été créé par Laurent Jeanson*/
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
 }
@@ -855,17 +856,20 @@ body.page .main-navigation {
 
 @-webkit-keyframes pulse {
   0% {
-    background: #cfcfdf;
+    background: #c900001c;
+    border-radius: 10px;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   25% {
-    background: #b0b0cb;
+    background: #c900001c, 10%;
+    border-radius: 60px;
     -webkit-transform: scale(1.015);
             transform: scale(1.015);
   }
   50% {
-    background: #cfcfdf;
+    background: #c900001c;
+    border-radius: 0px;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -873,17 +877,20 @@ body.page .main-navigation {
 
 @keyframes pulse {
   0% {
-    background: #cfcfdf;
+    background: #c900001c;
+    border-radius: 10px;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   25% {
-    background: #b0b0cb;
+    background: #c900001c, 10%;
+    border-radius: 60px;
     -webkit-transform: scale(1.015);
             transform: scale(1.015);
   }
   50% {
-    background: #cfcfdf;
+    background: #c900001c;
+    border-radius: 0px;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
